@@ -1,0 +1,417 @@
+.pp-navbar{
+
+    font-family: serif;
+   
+    z-index: 99;
+    
+    
+}
+
+.pp-navbar .nav-link,
+.pp-navbar .navbar-brand{
+    border-bottom: 2px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+    color: white;
+}
+.pp-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-color: transparent;
+}
+.test{
+    background-color: white;
+    
+}
+
+.test a.nav-link
+{
+   color: var(--bs-dark);
+}
+.test a.navbar-brand{
+    color: var(--bs-indigo);
+}
+
+#navbar{
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+  }
+
+
+  .home-section{
+
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/banniere1.jpg)   no-repeat ;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+
+
+  }
+
+  *{
+      margin: 0;
+      padding: 0;
+  }
+
+  @media(max-width:576px){
+    .home-section{
+        height: 50vh;
+        background-position: center;
+
+    }
+
+  }
+  @media(max-width:768px)
+  
+  {
+
+    .home-section{
+        height: 50vh;
+        background-position: center;
+
+    }
+
+     
+
+  }
+
+ 
+
+
+.about-section{
+    background-color: var(--bs-dark);
+background-size: cover;
+height: 100vh;
+z-index: -99;
+}
+
+
+
+
+.service-section{
+    background-color: var(--bs-dark);
+background-size: cover;
+height: 100vh;
+z-index: -99;
+}
+
+
+.contact-section{
+    background-color: var(--bs-dark);
+background-size: cover;
+height: 120vh;
+z-index: -99;
+}
+
+@media (max-width: 991.99px){
+
+    .contact-section{
+        height: 245vh;
+    }
+}
+@media (max-width: 576px){
+
+    .contact-section{
+        height: 210vh;
+    }
+}
+
+
+.contact-section .box {
+    width: 100%;
+    display: block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px; }
+    @media (max-width: 991.98px) {
+      .contact-section .box {
+        margin-bottom: 30px; } }
+    .contact-section .box .icon {
+      width: 100px;
+      height: 100px;
+      background: rgba(255, 255, 255, 0.1);
+      margin: 0 auto;
+      margin-bottom: 2em;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%; }
+      .contact-section .box .icon span {
+        color: #ffbd39;
+        font-size: 30px; }
+    .contact-section .box h3 {
+      font-size: 17px;
+      font-weight: 500;
+      text-transform: uppercase; }
+
+.skills-section{
+    background-color: var(--bs-dark);
+background-size: cover;
+height: 60vh;
+z-index: -99;
+
+}
+.skills-section h3{
+    color: var(--bs-light);
+}
+
+
+
+
+
+
+
+
+
+
+.serif{
+    font-family: serif;
+
+}
+.cursive{
+    font-family: cursive;
+}
+
+.animation{
+    color: Red;
+     font-size: 60px;
+}
+
+.card:hover{
+
+    background-color: var(--bs-warning) ;
+    color: black;
+
+}
+
+
+.card{
+
+    background-color: var(--bs-dark) ;
+    
+    box-shadow: 8px 8px 8px 8px #000;
+
+}
+
+
+@media(max-width:768px)
+  
+{
+
+  .about-section 
+  {
+
+      height: 110vh;
+/*  */
+    
+       
+    
+  }
+
+  /* .service-section{
+
+    height: 100vh;
+  } */
+
+
+  .about-section #text2{
+         
+
+   position: relative; 
+   bottom: 100px;
+  
+    
+    
+   
+  }
+
+  .about-section #text1{
+         
+
+    
+    font-size: 5vw;
+    
+   
+  }
+
+  .about-section #span{
+
+
+    display: none;
+
+  }
+
+  .about-section #button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 110px;
+  }
+
+}
+
+
+@media(max-width:768px)
+  
+{
+
+  .service-section{
+      height: 210vh;
+      background-position: center;
+
+  }
+
+  .skills-section{
+      height: 100vh;
+  }
+
+
+}
+
+/* .footer-section{
+    background-color: var(--bs-dark);
+} */
+
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+
+
+span{
+
+
+  margin-bottom: 25%;
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 47%;
+
+
+
+}
+
+#a-android {
+
+  color: antiquewhite;
+  margin-left: 20%;
+ 
+  text-decoration: none;
+}
+
+.contact-section a , .footer-section a
+{
+
+  /*text-decoration: ; */
+  color: var(--bs-warning);
+  text-decoration: none;
+
+  
+}
+
+
+#button{
+  margin-left: 20%;
+}
+
+.puce{
+  list-style-type: none;
+}
+
+.footer-section .cc-color i{
+
+    background-color: var(--bs-dark);
+              color: var(--bs-light);
+			margin: 20px;
+			border-radius: 50%;
+			padding: 20px;
+			border: 1px solid black;
+			margin: 10px;
+}
+
+         
+@media(max-width:576px)
+{
+
+    .footer-section {
+        text-align: center;
+    }
+    .footer-section h6{
+        text-decoration: underline;
+    }
+}
+      
+
+          
+
+       
+
+
+          /*  .cube{
+              position: relative;
+              width: 300px;
+              height: 300px;
+              transform-style: preserve-3d;
+              transform: rotateX(-30deg);
+              animation: animate 4s linear infinite;
+          }
+          @keyframes animate {
+              0%{
+                  transform: rotateX(-30deg) rotateY(0deg);
+              }
+              100%{
+                transform: rotateX(-30deg) rotateY(360deg);
+              }
+          }
+          .cube div {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              transform-style: preserve-3d;
+             
+          }
+          .cube div span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(#151515,#00ec00);
+            transform: rotateY(calc(90deg * var(--i)))translateZ(150px);
+        }
+        .top
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 300px;
+            height: 300px;
+            background: #222;
+            transform: rotateX(90deg) translateZ(150px);
+        }
+        .top::before
+        {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 300px;
+            height: 300px;
+            background: #0f0;
+            transform:  translateZ(-380px);
+            filter: blur(20px);
+            box-shadow: 0 0 120px rgba(0, 255, 0, 0.2),
+            0 0 200px rgba(0, 255, 0, 0.4),
+            0 0 300px rgba(0, 255, 0, 0.6),
+            0 0 400px rgba(0, 255, 0, 0.8),
+            0 0 500px rgba(0, 255, 0, 1) ;
+        }
+
+ */
